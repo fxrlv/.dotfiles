@@ -63,6 +63,7 @@ let g:ycm_cache_omnifunc          = 0
 let g:echodoc#enable_at_startup   = 1
 let g:ycm_disable_signature_help  = 1
 let g:ycm_clangd_args             = ['--header-insertion=never']
+let g:ycm_update_diagnostics_in_insert_mode = 0
 
 function Trim()
     let save_cursor = getpos(".")
