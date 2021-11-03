@@ -60,15 +60,12 @@ COMPLETION_WAITING_DOTS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   brew
-  cargo
   docker
   docker-compose
   git
   golang
+  helm
   kubectl
-  npm
-  rust
-  rustup
   sudo
   terraform
 )
