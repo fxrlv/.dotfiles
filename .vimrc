@@ -48,6 +48,12 @@ set laststatus=2
 let g:airline_theme = 'minimalist'
 let g:airline_powerline_fonts = 1
 
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+let g:airline_symbols.linenr = "\u33d1"
+let g:airline_symbols.colnr  = "\u33c7"
+
 let g:bufferline_echo           = 0
 let g:bufferline_show_bufnr     = 0
 let g:bufferline_solo_highlight = 1
