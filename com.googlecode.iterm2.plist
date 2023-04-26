@@ -1153,7 +1153,7 @@
 												<real>0.73333334922790527</real>
 											</dict>
 											<key>Guid</key>
-											<string>5D7D0456-E96B-47F0-832F-A4FD27C434EA</string>
+											<string>7FF966B4-2173-4986-A859-2BCBD6E5B121</string>
 											<key>Horizontal Spacing</key>
 											<integer>1</integer>
 											<key>Icon</key>
@@ -1557,6 +1557,7 @@
 										<key>Directories</key>
 										<array>
 											<string>/Users/fxrlv</string>
+											<string>/Users/fxrlv</string>
 										</array>
 										<key>Environment</key>
 										<dict>
@@ -1566,7 +1567,14 @@
 										<key>Hostname to Shell</key>
 										<dict/>
 										<key>Hosts</key>
-										<array/>
+										<array>
+											<dict>
+												<key>Host name</key>
+												<string>i112141226</string>
+												<key>User name</key>
+												<string></string>
+											</dict>
+										</array>
 										<key>Is UTF-8</key>
 										<true/>
 										<key>Key Labels</key>
@@ -1586,10 +1594,8 @@
 										</array>
 										<key>Program</key>
 										<dict>
-											<key>Command</key>
-											<string>login -fp "fxrlv"</string>
 											<key>Type</key>
-											<string>Command</string>
+											<string>Shell Launcher</string>
 										</dict>
 										<key>Rows</key>
 										<integer>42</integer>
@@ -1598,9 +1604,9 @@
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
-										<false/>
+										<true/>
 										<key>Should Expect Prompt Marks</key>
-										<false/>
+										<true/>
 										<key>Substitutions</key>
 										<dict>
 											<key>$$$$</key>
@@ -1609,7 +1615,7 @@
 										<key>Working Directory</key>
 										<string>/Users/fxrlv</string>
 										<key>Working Directory Poller Disabled</key>
-										<false/>
+										<true/>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
@@ -1680,9 +1686,9 @@
 				<key>Window Type</key>
 				<integer>13</integer>
 				<key>X Origin</key>
-				<real>366</real>
+				<real>334</real>
 				<key>Y Origin</key>
-				<real>225</real>
+				<real>172</real>
 			</dict>
 		</array>
 	</dict>
