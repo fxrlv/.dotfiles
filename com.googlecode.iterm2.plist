@@ -6,6 +6,8 @@
 	<true/>
 	<key>CompactMinimalTabBarHeight</key>
 	<real>24</real>
+	<key>Control</key>
+	<integer>1</integer>
 	<key>Default Arrangement Name</key>
 	<string>Arrangement</string>
 	<key>Default Bookmark Guid</key>
@@ -30,6 +32,50 @@
 			<string></string>
 			<key>Text</key>
 			<string></string>
+		</dict>
+		<key>0x48-0x120000-0x4</key>
+		<dict>
+			<key>Action</key>
+			<integer>18</integer>
+			<key>Label</key>
+			<string></string>
+			<key>Text</key>
+			<string></string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<key>0x4a-0x120000-0x26</key>
+		<dict>
+			<key>Action</key>
+			<integer>21</integer>
+			<key>Label</key>
+			<string></string>
+			<key>Text</key>
+			<string></string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<key>0x4b-0x120000-0x28</key>
+		<dict>
+			<key>Action</key>
+			<integer>20</integer>
+			<key>Label</key>
+			<string></string>
+			<key>Text</key>
+			<string></string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<key>0x4c-0x120000-0x25</key>
+		<dict>
+			<key>Action</key>
+			<integer>19</integer>
+			<key>Label</key>
+			<string></string>
+			<key>Text</key>
+			<string></string>
+			<key>Version</key>
+			<integer>1</integer>
 		</dict>
 		<key>0x9-0x40000-0x0</key>
 		<dict>
@@ -135,8 +181,18 @@
 	<false/>
 	<key>HideTabNumber</key>
 	<true/>
+	<key>Hotkey</key>
+	<false/>
+	<key>HotkeyChar</key>
+	<integer>32</integer>
+	<key>HotkeyCode</key>
+	<integer>49</integer>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
+	<key>HotkeyModifiers</key>
+	<integer>524288</integer>
+	<key>LeftCommand</key>
+	<integer>7</integer>
 	<key>MinimalTabStyleBackgroundColorDifference</key>
 	<real>0.0</real>
 	<key>MinimalTabStyleOutlineStrength</key>
@@ -156,6 +212,8 @@
 		<dict>
 			<key>ASCII Anti Aliased</key>
 			<true/>
+			<key>ASCII Ligatures</key>
+			<false/>
 			<key>AWDS Pane Directory</key>
 			<string></string>
 			<key>AWDS Pane Option</key>
@@ -168,6 +226,8 @@
 			<string></string>
 			<key>AWDS Window Option</key>
 			<string>No</string>
+			<key>Allow Paste Bracketing</key>
+			<true/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -334,25 +394,29 @@
 				<key>Red Component</key>
 				<integer>1</integer>
 			</dict>
+			<key>Application Keypad Allowed</key>
+			<false/>
 			<key>BM Growl</key>
 			<true/>
 			<key>Background Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<integer>1</integer>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.062745098039215672</real>
+				<real>0.070588235294117646</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.062745098039215672</real>
+				<real>0.070588235294117646</real>
 				<key>Red Component</key>
-				<real>0.062745098039215672</real>
+				<real>0.070588235294117646</real>
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
 			<key>Background Image Mode</key>
 			<integer>0</integer>
+			<key>Blink Allowed</key>
+			<false/>
 			<key>Blinking Cursor</key>
 			<true/>
 			<key>Blur</key>
@@ -408,6 +472,8 @@
 			<string>Default</string>
 			<key>Disable Window Resizing</key>
 			<true/>
+			<key>Draw Powerline Glyphs</key>
+			<true/>
 			<key>Flashing Bell</key>
 			<false/>
 			<key>Foreground Color</key>
@@ -422,13 +488,15 @@
 			<key>Guid</key>
 			<string>AEC3832C-64CF-410D-8815-D3371DA48AD8</string>
 			<key>Horizontal Spacing</key>
-			<integer>1</integer>
+			<real>1</real>
 			<key>Icon</key>
 			<integer>0</integer>
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Initial Text</key>
 			<string></string>
+			<key>Initial Use Transparency</key>
+			<false/>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
@@ -730,9 +798,11 @@
 			<key>Non-ASCII Ligatures</key>
 			<false/>
 			<key>Normal Font</key>
-			<string>Monaco 12</string>
+			<string>MesloLGS-NF-Regular 13</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
+			<key>Place Prompt at First Column</key>
+			<false/>
 			<key>Prompt Before Closing 2</key>
 			<false/>
 			<key>Right Option Key Sends</key>
@@ -765,6 +835,8 @@
 			<false/>
 			<key>Shortcut</key>
 			<string></string>
+			<key>Show Mark Indicators</key>
+			<false/>
 			<key>Silence Bell</key>
 			<true/>
 			<key>Space</key>
@@ -792,6 +864,10 @@
 			<integer>2</integer>
 			<key>Transparency</key>
 			<integer>0</integer>
+			<key>Unicode Normalization</key>
+			<integer>0</integer>
+			<key>Unicode Version</key>
+			<integer>9</integer>
 			<key>Unlimited Scrollback</key>
 			<false/>
 			<key>Use Bold Font</key>
@@ -801,13 +877,13 @@
 			<key>Use Italic Font</key>
 			<true/>
 			<key>Use Non-ASCII Font</key>
-			<true/>
+			<false/>
 			<key>Use Tab Color</key>
 			<false/>
 			<key>Use Underline Color</key>
 			<false/>
 			<key>Vertical Spacing</key>
-			<integer>1</integer>
+			<real>1</real>
 			<key>Visual Bell</key>
 			<false/>
 			<key>Window Type</key>
@@ -848,13 +924,13 @@
 		<array>
 			<dict>
 				<key>Desired Columns</key>
-				<integer>150</integer>
+				<integer>250</integer>
 				<key>Desired Rows</key>
-				<integer>42</integer>
+				<integer>75</integer>
 				<key>Has Toolbelt</key>
 				<false/>
 				<key>Height</key>
-				<real>742</real>
+				<real>1303</real>
 				<key>Hide After Opening</key>
 				<false/>
 				<key>Hiding Toolbelt Should Resize Window</key>
@@ -889,6 +965,8 @@
 										<dict>
 											<key>ASCII Anti Aliased</key>
 											<true/>
+											<key>ASCII Ligatures</key>
+											<false/>
 											<key>AWDS Pane Directory</key>
 											<string></string>
 											<key>AWDS Pane Option</key>
@@ -901,6 +979,8 @@
 											<string></string>
 											<key>AWDS Window Option</key>
 											<string>No</string>
+											<key>Allow Paste Bracketing</key>
+											<true/>
 											<key>Ambiguous Double Width</key>
 											<false/>
 											<key>Ansi 0 Color</key>
@@ -1067,25 +1147,29 @@
 												<key>Red Component</key>
 												<integer>1</integer>
 											</dict>
+											<key>Application Keypad Allowed</key>
+											<false/>
 											<key>BM Growl</key>
 											<true/>
 											<key>Background Color</key>
 											<dict>
 												<key>Alpha Component</key>
-												<integer>1</integer>
+												<real>1</real>
 												<key>Blue Component</key>
-												<real>0.062745098039215672</real>
+												<real>0.070588235294117646</real>
 												<key>Color Space</key>
 												<string>sRGB</string>
 												<key>Green Component</key>
-												<real>0.062745098039215672</real>
+												<real>0.070588235294117646</real>
 												<key>Red Component</key>
-												<real>0.062745098039215672</real>
+												<real>0.070588235294117646</real>
 											</dict>
 											<key>Background Image Location</key>
 											<string></string>
 											<key>Background Image Mode</key>
 											<integer>0</integer>
+											<key>Blink Allowed</key>
+											<false/>
 											<key>Blinking Cursor</key>
 											<true/>
 											<key>Blur</key>
@@ -1141,6 +1225,8 @@
 											<string>Default</string>
 											<key>Disable Window Resizing</key>
 											<true/>
+											<key>Draw Powerline Glyphs</key>
+											<true/>
 											<key>Flashing Bell</key>
 											<false/>
 											<key>Foreground Color</key>
@@ -1153,15 +1239,17 @@
 												<real>0.73333334922790527</real>
 											</dict>
 											<key>Guid</key>
-											<string>7FF966B4-2173-4986-A859-2BCBD6E5B121</string>
+											<string>445D633D-C0BF-4D27-A772-283F0C0C57C0</string>
 											<key>Horizontal Spacing</key>
-											<integer>1</integer>
+											<real>1</real>
 											<key>Icon</key>
 											<integer>0</integer>
 											<key>Idle Code</key>
 											<integer>0</integer>
 											<key>Initial Text</key>
 											<string></string>
+											<key>Initial Use Transparency</key>
+											<false/>
 											<key>Jobs to Ignore</key>
 											<array>
 												<string>rlogin</string>
@@ -1463,11 +1551,13 @@
 											<key>Non-ASCII Ligatures</key>
 											<false/>
 											<key>Normal Font</key>
-											<string>Monaco 12</string>
+											<string>MesloLGS-NF-Regular 13</string>
 											<key>Option Key Sends</key>
 											<integer>0</integer>
 											<key>Original Guid</key>
 											<string>AEC3832C-64CF-410D-8815-D3371DA48AD8</string>
+											<key>Place Prompt at First Column</key>
+											<false/>
 											<key>Prompt Before Closing 2</key>
 											<false/>
 											<key>Right Option Key Sends</key>
@@ -1500,6 +1590,8 @@
 											<false/>
 											<key>Shortcut</key>
 											<string></string>
+											<key>Show Mark Indicators</key>
+											<false/>
 											<key>Silence Bell</key>
 											<true/>
 											<key>Space</key>
@@ -1527,6 +1619,10 @@
 											<integer>3</integer>
 											<key>Transparency</key>
 											<integer>0</integer>
+											<key>Unicode Normalization</key>
+											<integer>0</integer>
+											<key>Unicode Version</key>
+											<integer>9</integer>
 											<key>Unlimited Scrollback</key>
 											<false/>
 											<key>Use Bold Font</key>
@@ -1536,13 +1632,13 @@
 											<key>Use Italic Font</key>
 											<true/>
 											<key>Use Non-ASCII Font</key>
-											<true/>
+											<false/>
 											<key>Use Tab Color</key>
 											<false/>
 											<key>Use Underline Color</key>
 											<false/>
 											<key>Vertical Spacing</key>
-											<integer>1</integer>
+											<real>1</real>
 											<key>Visual Bell</key>
 											<false/>
 											<key>Window Type</key>
@@ -1551,11 +1647,14 @@
 											<string>/Users/fxrlv</string>
 										</dict>
 										<key>Columns</key>
-										<integer>150</integer>
+										<integer>250</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
 										<array>
+											<string>/Users/fxrlv</string>
+											<string>/Users/fxrlv</string>
+											<string>/Users/fxrlv</string>
 											<string>/Users/fxrlv</string>
 											<string>/Users/fxrlv</string>
 										</array>
@@ -1568,6 +1667,24 @@
 										<dict/>
 										<key>Hosts</key>
 										<array>
+											<dict>
+												<key>Host name</key>
+												<string>i112141226</string>
+												<key>User name</key>
+												<string></string>
+											</dict>
+											<dict>
+												<key>Host name</key>
+												<string>i112141226</string>
+												<key>User name</key>
+												<string></string>
+											</dict>
+											<dict>
+												<key>Host name</key>
+												<string>i112141226</string>
+												<key>User name</key>
+												<string></string>
+											</dict>
 											<dict>
 												<key>Host name</key>
 												<string>i112141226</string>
@@ -1598,9 +1715,9 @@
 											<string>Shell Launcher</string>
 										</dict>
 										<key>Rows</key>
-										<integer>42</integer>
+										<integer>75</integer>
 										<key>Session GUID</key>
-										<string>33417688-5A6A-47FC-A3F1-CA003672DD58</string>
+										<string>97D2921F-1154-4E63-A952-78446B7C2B76</string>
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
@@ -1622,9 +1739,9 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>718</real>
+										<real>1279</real>
 										<key>width</key>
-										<real>1060</real>
+										<real>2010</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -1637,9 +1754,9 @@
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>718</real>
+								<real>1279</real>
 								<key>width</key>
-								<real>1060</real>
+								<real>2010</real>
 								<key>x</key>
 								<real>0.0</real>
 								<key>y</key>
@@ -1649,11 +1766,11 @@
 							<false/>
 						</dict>
 						<key>Tab GUID</key>
-						<string>FDE99AAC-B8A6-4B87-82D2-45F75132B52B</string>
+						<string>00F36F94-0B9A-4ECD-9A7C-6DE63F9055CF</string>
 					</dict>
 				</array>
 				<key>TerminalGuid</key>
-				<string>pty-8D3E382B-58A7-42F6-AD02-67D3FD2725E8</string>
+				<string>pty-C40C74C1-C21A-46F8-8D55-ABEE45370CF4</string>
 				<key>Toolbelt</key>
 				<dict>
 					<key>Profiles</key>
@@ -1682,17 +1799,21 @@
 				<key>Use Transparency</key>
 				<true/>
 				<key>Width</key>
-				<real>1060</real>
+				<real>2010</real>
 				<key>Window Type</key>
 				<integer>13</integer>
 				<key>X Origin</key>
-				<real>334</real>
+				<real>675</real>
 				<key>Y Origin</key>
-				<real>172</real>
+				<real>294</real>
 			</dict>
 		</array>
 	</dict>
 	<key>WindowNumber</key>
+	<false/>
+	<key>kCPKSelectionViewPreferredModeKey</key>
+	<integer>0</integer>
+	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
 	<false/>
 </dict>
 </plist>
