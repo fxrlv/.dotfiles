@@ -1,6 +1,9 @@
 source ~/.vim/plugins.vim
 source ~/.vim/mapping.vim
 
+set exrc
+set secure
+
 set encoding=utf-8
 
 set number
@@ -48,11 +51,11 @@ set laststatus=2
 let g:airline_theme = 'minimalist'
 let g:airline_powerline_fonts = 1
 
-if !exists('g:airline_symbols')
-    let g:airline_symbols = {}
-endif
-let g:airline_symbols.linenr = "\u33d1"
-let g:airline_symbols.colnr  = "\u33c7"
+" if !exists('g:airline_symbols')
+"     let g:airline_symbols = {}
+" endif
+" let g:airline_symbols.linenr = "\u33d1"
+" let g:airline_symbols.colnr  = "\u33c7"
 
 let g:bufferline_echo           = 0
 let g:bufferline_show_bufnr     = 0
@@ -61,7 +64,7 @@ let g:cpp_class_scope_highlight = 1
 
 set completeopt=menuone
 map <C-]> ;YcmCompleter GoToDefinitionElseDeclaration<CR>
-let g:ycm_global_ycm_extra_conf   = '~/.vim/.ycm_extra_conf.py'
+let g:ycm_confirm_extra_conf      = 0
 let g:ycm_key_invoke_completion   = '<C-p>'
 let g:ycm_use_ultisnips_completer = 0
 let g:ycm_enable_diagnostic_signs = 0
@@ -70,6 +73,16 @@ let g:echodoc#enable_at_startup   = 1
 let g:ycm_disable_signature_help  = 1
 let g:ycm_clangd_args             = ['--header-insertion=never']
 let g:ycm_update_diagnostics_in_insert_mode = 0
+
+" let g:zig_fmt_autosave = 0
+" let g:ycm_language_server =
+"     \ [
+"     \{
+"     \     'name': 'zls',
+"     \     'filetypes': [ 'zig' ],
+"     \     'cmdline': [ '/Users/fxrlv/Downloads/zls' ]
+"     \    }
+"     \ ]
 
 function Trim()
     let save_cursor = getpos(".")
