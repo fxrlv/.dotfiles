@@ -61,12 +61,10 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(
   brew
   docker
-  docker-compose
+  fzf
   git
   golang
-  helm
   kubectl
-  sudo
   terraform
 )
 
