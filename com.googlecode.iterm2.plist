@@ -924,13 +924,13 @@
 		<array>
 			<dict>
 				<key>Desired Columns</key>
-				<integer>250</integer>
+				<integer>200</integer>
 				<key>Desired Rows</key>
-				<integer>75</integer>
+				<integer>60</integer>
 				<key>Has Toolbelt</key>
 				<false/>
 				<key>Height</key>
-				<real>1303</real>
+				<real>1048</real>
 				<key>Hide After Opening</key>
 				<false/>
 				<key>Hiding Toolbelt Should Resize Window</key>
@@ -953,7 +953,7 @@
 						<key>Root</key>
 						<dict>
 							<key>Splitter ID</key>
-							<string>A93BE24B-FC67-47E6-B959-024FD99B40E6</string>
+							<string>F1BB1AD2-7ACC-4CBD-8EBD-4FAE50113B2C</string>
 							<key>Subviews</key>
 							<array>
 								<dict>
@@ -1239,7 +1239,7 @@
 												<real>0.73333334922790527</real>
 											</dict>
 											<key>Guid</key>
-											<string>445D633D-C0BF-4D27-A772-283F0C0C57C0</string>
+											<string>FC1015A4-26B3-48C8-B603-81DFE977DA27</string>
 											<key>Horizontal Spacing</key>
 											<real>1</real>
 											<key>Icon</key>
@@ -1647,7 +1647,7 @@
 											<string>/Users/fxrlv</string>
 										</dict>
 										<key>Columns</key>
-										<integer>250</integer>
+										<integer>200</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
@@ -1669,25 +1669,31 @@
 										<array>
 											<dict>
 												<key>Host name</key>
-												<string>i112141226</string>
+												<string>NB-Y71433XD6C</string>
 												<key>User name</key>
 												<string></string>
 											</dict>
 											<dict>
 												<key>Host name</key>
-												<string>i112141226</string>
+												<string>NB-Y71433XD6C</string>
 												<key>User name</key>
 												<string></string>
 											</dict>
 											<dict>
 												<key>Host name</key>
-												<string>i112141226</string>
+												<string>NB-Y71433XD6C</string>
 												<key>User name</key>
 												<string></string>
 											</dict>
 											<dict>
 												<key>Host name</key>
-												<string>i112141226</string>
+												<string>NB-Y71433XD6C</string>
+												<key>User name</key>
+												<string></string>
+											</dict>
+											<dict>
+												<key>Host name</key>
+												<string>NB-Y71433XD6C</string>
 												<key>User name</key>
 												<string></string>
 											</dict>
@@ -1715,9 +1721,9 @@
 											<string>Shell Launcher</string>
 										</dict>
 										<key>Rows</key>
-										<integer>75</integer>
+										<integer>60</integer>
 										<key>Session GUID</key>
-										<string>97D2921F-1154-4E63-A952-78446B7C2B76</string>
+										<string>67ABD206-3DA9-418C-BC42-BE7A5E0BE84C</string>
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
@@ -1739,9 +1745,9 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>1279</real>
+										<real>1024</real>
 										<key>width</key>
-										<real>2010</real>
+										<real>1610</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -1754,9 +1760,9 @@
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>1279</real>
+								<real>1024</real>
 								<key>width</key>
-								<real>2010</real>
+								<real>1610</real>
 								<key>x</key>
 								<real>0.0</real>
 								<key>y</key>
@@ -1766,11 +1772,11 @@
 							<false/>
 						</dict>
 						<key>Tab GUID</key>
-						<string>00F36F94-0B9A-4ECD-9A7C-6DE63F9055CF</string>
+						<string>02E226BC-CA1B-4215-BEDD-2BE9431A97AA</string>
 					</dict>
 				</array>
 				<key>TerminalGuid</key>
-				<string>pty-C40C74C1-C21A-46F8-8D55-ABEE45370CF4</string>
+				<string>pty-C7065EE7-0DD4-4A3F-880F-B0C99867B7CD</string>
 				<key>Toolbelt</key>
 				<dict>
 					<key>Profiles</key>
@@ -1797,15 +1803,15 @@
 					</array>
 				</dict>
 				<key>Use Transparency</key>
-				<true/>
+				<false/>
 				<key>Width</key>
-				<real>2010</real>
+				<real>1610</real>
 				<key>Window Type</key>
 				<integer>13</integer>
 				<key>X Origin</key>
-				<real>675</real>
+				<real>699</real>
 				<key>Y Origin</key>
-				<real>294</real>
+				<real>322</real>
 			</dict>
 		</array>
 	</dict>
