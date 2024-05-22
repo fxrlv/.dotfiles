@@ -16,15 +16,16 @@ return {
 
       vim.g['ycm_auto_hover'] = ''
 
-      vim.g['ycm_gopls_binary_path'] = '/Users/fxrlv/Downloads/gopls'
+      vim.g['ycm_gopls_binary_path'] = '/Users/fxrlv/go/bin/gopls'
+      -- vim.g['ycm_gopls_args'] = {'-remote=auto', '-remote.listen.timeout=30m'}
 
-      vim.g['ycm_language_server'] = {
-        {
-            name      = 'zls',
-            filetypes = { 'zig' },
-            cmdline   = { '/Users/fxrlv/Downloads/zls' },
-        }
-      }
+      -- vim.g['ycm_language_server'] = {
+      --   {
+      --       name      = 'zls',
+      --       filetypes = { 'zig' },
+      --       cmdline   = { '/Users/fxrlv/Downloads/zls' },
+      --   }
+      -- }
     end,
 
     config = function()
@@ -33,5 +34,7 @@ return {
 
       vim.keymap.set('n', '<Leader>f', '<Cmd> YcmCompleter Format <CR>')
     end,
+
+    enabled = true,
   },
 }
