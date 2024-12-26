@@ -1,0 +1,21 @@
+theme = jellybeans
+
+shell-integration-features = no-cursor
+cursor-style = underline
+
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig
+
+font-family = "MesloLGS NF"
+
+keybind = "super+shift+l=goto_split:right"
+keybind = "super+shift+j=goto_split:bottom"
+keybind = "super+shift+h=goto_split:left"
+keybind = "super+shift+k=goto_split:top"
+
+unfocused-split-opacity = 0.5
+
+mouse-hide-while-typing = true
+
+macos-window-shadow = false
