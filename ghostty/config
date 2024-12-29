@@ -1,4 +1,4 @@
-theme = jellybeans
+theme = tokyonight
 
 shell-integration-features = no-cursor
 cursor-style = underline
@@ -19,3 +19,4 @@ unfocused-split-opacity = 0.5
 mouse-hide-while-typing = true
 
 macos-window-shadow = false
+quit-after-last-window-closed = true
