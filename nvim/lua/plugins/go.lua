@@ -10,6 +10,9 @@ return {
     opts = {
       servers = {
         gopls = {
+          root_dir = function(_)
+            return vim.uv.cwd()
+          end,
           settings = {
             gopls = {
               completeUnimported = true,
