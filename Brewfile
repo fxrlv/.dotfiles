@@ -1,3 +1,4 @@
+brew "direnv"
 brew "fd"
 brew "fzf"
 brew "git"
