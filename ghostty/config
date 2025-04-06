@@ -1,22 +1,23 @@
 theme = tokyonight_moon
 
-shell-integration-features = no-cursor
-cursor-style = underline
+font-family = "MesloLGS NF"
 
 font-feature = -calt
 font-feature = -liga
 font-feature = -dlig
 
-font-family = "MesloLGS NF"
+cursor-style = underline
+shell-integration-features = no-cursor
+
+mouse-hide-while-typing = true
+
+unfocused-split-opacity = 0.5
 
 keybind = "super+shift+l=goto_split:right"
 keybind = "super+shift+j=goto_split:bottom"
 keybind = "super+shift+h=goto_split:left"
 keybind = "super+shift+k=goto_split:top"
 
-unfocused-split-opacity = 0.5
-
-mouse-hide-while-typing = true
+quit-after-last-window-closed = true
 
 macos-window-shadow = false
-quit-after-last-window-closed = true
