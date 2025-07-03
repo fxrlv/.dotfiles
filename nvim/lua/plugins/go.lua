@@ -15,12 +15,25 @@ return {
           end,
           settings = {
             gopls = {
+              analyses = { ST1000 = false },
               completeUnimported = true,
               semanticTokens = true,
               staticcheck = true,
             },
           },
         },
+      },
+    },
+  },
+  {
+    "fredrikaverpil/neotest-golang",
+  },
+  {
+    "nvim-neotest/neotest",
+    dependencies = { "nvim-neotest/nvim-nio" },
+    opts = {
+      adapters = {
+        ["neotest-golang"] = {},
       },
     },
   },
