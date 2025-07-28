@@ -6,7 +6,6 @@ return {
       terminal = {
         provider = "external",
       },
-      log_level = "warn",
     },
     keys = {
       { "<leader>a", nil, desc = "AI/Claude Code" },
