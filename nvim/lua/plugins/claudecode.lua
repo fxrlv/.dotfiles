@@ -1,10 +1,10 @@
 return {
   {
-    "gaborkajtar/claudecode.nvim",
+    "coder/claudecode.nvim",
     event = "VeryLazy",
     opts = {
       terminal = {
-        provider = "external",
+        provider = "none",
       },
     },
     keys = {
@@ -14,7 +14,7 @@ return {
         "<leader>as",
         "<cmd>ClaudeCodeTreeAdd<cr>",
         desc = "Add file",
-        ft = { "NvimTree", "neo-tree", "oil" },
+        ft = { "NvimTree", "neo-tree", "oil", "minifiles" },
       },
       { "<leader>aa", "<cmd>ClaudeCodeDiffAccept<cr>", desc = "Accept diff" },
       { "<leader>ad", "<cmd>ClaudeCodeDiffDeny<cr>", desc = "Deny diff" },
