@@ -10,8 +10,8 @@ return {
     opts = {
       servers = {
         gopls = {
-          root_dir = function(_)
-            return vim.uv.cwd()
+          root_dir = function(_, on_dir)
+            on_dir(vim.uv.cwd())
           end,
           settings = {
             gopls = {
