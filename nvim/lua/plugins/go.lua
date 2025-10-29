@@ -15,7 +15,7 @@ return {
           end,
           settings = {
             gopls = {
-              analyses = { ST1000 = false },
+              analyses = { ST1000 = false, modernize = false },
               completeUnimported = true,
               semanticTokens = true,
               staticcheck = true,
