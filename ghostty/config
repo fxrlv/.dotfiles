@@ -17,7 +17,6 @@ keybind = "super+shift+l=goto_split:right"
 keybind = "super+shift+j=goto_split:bottom"
 keybind = "super+shift+h=goto_split:left"
 keybind = "super+shift+k=goto_split:top"
-keybind = "shift+enter=text:\n"
 
 quit-after-last-window-closed = true
 
