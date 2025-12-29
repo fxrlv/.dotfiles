@@ -86,6 +86,7 @@ plugins=(
   git
   golang
   helm
+  jj
   kubectl
   nebius
   nvim

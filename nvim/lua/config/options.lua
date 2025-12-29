@@ -1,1 +1,1 @@
-vim.g.root_spec = { { ".git", "lua" }, "lsp", "cwd" }
+vim.g.root_spec = { { ".git", ".jj" }, "lsp", "cwd" }
