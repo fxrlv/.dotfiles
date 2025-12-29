@@ -1,3 +1,4 @@
+brew "difftastic"
 brew "direnv"
 brew "fd"
 brew "fzf"

@@ -85,6 +85,7 @@ plugins=(
   fzf
   git
   golang
+  gpg-agent
   helm
   jj
   kubectl
