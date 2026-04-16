@@ -7,7 +7,11 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
-        zls = {},
+        zls = {
+          settings = {
+            enable_argument_placeholders = false,
+          },
+        },
       },
     },
   },
