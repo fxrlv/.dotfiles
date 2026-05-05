@@ -21,3 +21,5 @@ keybind = "super+shift+k=goto_split:top"
 quit-after-last-window-closed = true
 
 macos-window-shadow = false
+
+macos-option-as-alt = true
