@@ -91,6 +91,7 @@ plugins=(
   kubectl
   nebius
   nvim
+  path
 )
 
 source $ZSH/oh-my-zsh.sh
