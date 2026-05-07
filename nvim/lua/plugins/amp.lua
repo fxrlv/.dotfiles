@@ -1,6 +1,6 @@
 return {
   {
-    "sourcegraph/amp.nvim",
+    "ampcode/amp.nvim",
     event = "VeryLazy",
     keys = {
       { "<leader>a", "", desc = "+ai", mode = { "n", "v" } },
