@@ -1,4 +1,4 @@
-tap "jnsahaj/lumen"
+tap "hashicorp/tap"
 tap "minio/stable"
 # Diff that understands syntax
 brew "difftastic"
@@ -44,15 +44,13 @@ brew "node"
 brew "protobuf"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Tool to build, change, and version infrastructure
-brew "terraform"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Watch files and take action when they change
 brew "watchman"
 # Programming language designed for robustness, optimality, and clarity
 brew "zig"
-# lumen is a command-line tool that can show pretty diff, generate commit messages with AI, summarise diffs / commits, and more without requiring an API key.
-brew "jnsahaj/lumen/lumen", trusted: true
+# Terraform
+brew "hashicorp/tap/terraform", trusted: true
 # MinIO Client for object storage and filesystems
 brew "minio/stable/mc", trusted: true
