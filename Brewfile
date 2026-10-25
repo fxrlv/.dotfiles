@@ -1,5 +1,4 @@
 tap "hashicorp/tap"
-tap "minio/stable"
 # Diff that understands syntax
 brew "difftastic"
 # Load/unload environment variables based on $PWD
@@ -36,6 +35,8 @@ brew "helm"
 brew "jj"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Replacement for ls, cp and other commands for object storage
+brew "minio-mc"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Open-source, cross-platform JavaScript runtime environment
@@ -52,5 +53,3 @@ brew "watchman"
 brew "zig"
 # Terraform
 brew "hashicorp/tap/terraform", trusted: true
-# MinIO Client for object storage and filesystems
-brew "minio/stable/mc", trusted: true
